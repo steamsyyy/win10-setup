@@ -4,7 +4,7 @@ Downloads all packages through chocolatey (will install if not present), a packa
 Run with
 
     Set-ExecutionPolicy Unrestricted
-    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/steamsyyy/win10-setup/main/(filename).ps1" -OutFile "C:\Your\Desired\Path\(filename).ps1"
+    Invoke-WebRequest -Uri "https://your.url.here" -OutFile "c:\your\path\here"
     .\(filename).ps1
 
 in an elevated Powershell session.
