@@ -1,16 +1,3 @@
-<#
-Testbench:
-Ryzen 5 1600 + MSI Ventus XS GeForce GTX 1660
-
-Remove on NVIDIA cards other than the MSI brand:
-msi-afterburner
-
-Remove on video cards other than the NVIDIA brand:
-msi-afterburner*, geforce-experience, geforce-game-ready-driver
-
-*: remove only if the video card is not from MSI and/or NVIDIA.
-#>
-
 Set-Location "C:\Windows\System32"
 # Install Chocolatey package managewr
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
