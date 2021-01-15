@@ -1,7 +1,7 @@
 # win10-setup
-Script to install everything I need in a fresh Windows 10 install.
+Downloads all packages through chocolatey (will install if not present), a package manager for Windows.
 
-Automatically installs and runs with 
+Run with
 
     Set-ExecutionPolicy Unrestricted
     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/steamsyyy/win10-setup/main/(filename).ps1" -OutFile "C:\Your\Desired\Path\(filename).ps1"
