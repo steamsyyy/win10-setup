@@ -1,0 +1,2 @@
+# win10-setup
+Script to install everything I need in a fresh Windows 10 install.
